@@ -1,5 +1,6 @@
 package se.springworks.vehicleattributesapp.vehicle;
 
+import android.app.AlertDialog;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -85,6 +86,12 @@ public class VehicleFragment extends Fragment implements VehicleContract.View {
     @Override
     public void showErrorForLoading(String error) {
 
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        builder.setMessage(error)
+                .setTitle(R.string.oops);
+
+        AlertDialog dialog = builder.create();
+        dialog.show();
     }
 
     @Override

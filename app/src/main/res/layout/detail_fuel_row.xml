@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="4">
+
+    <TextView
+        android:id="@+id/textViewRowTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/gasoline"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/main_padding"
+        android:layout_marginTop="@dimen/main_padding"/>
+
+    <ImageView
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"/>
+    <TextView
+        android:id="@+id/textViewRowMixed"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/main_padding"
+        android:layout_marginTop="@dimen/main_padding"/>
+
+    <TextView
+        android:id="@+id/textViewRowRural"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/main_padding"
+        android:layout_marginTop="@dimen/main_padding"/>
+    <TextView
+        android:id="@+id/textViewRowUrban"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/main_padding"
+        android:layout_marginTop="@dimen/main_padding"/>
+</LinearLayout>

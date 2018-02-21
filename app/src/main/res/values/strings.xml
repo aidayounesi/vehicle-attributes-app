@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Vehicle Attributes App</string>
+    <string name="regno">Reg. number</string>
+    <string name="vin">Vin number</string>
+    <string name="year_model">Model year</string>
+    <string name="gearbox_type">Gearbox</string>
+    <string name="manual">Manual</string>
+    <string name="automatic">Automatic</string>
+    <string name="diesel">Diesel</string>
+    <string name="gasoline">Gasoline</string>
+    <string name="fuel">Fuel</string>
+    <string name="average_consumption">Consumption</string>
+    <string name="mixed">Mixed</string>
+    <string name="rural">Rural</string>
+    <string name="urban">Urban</string>
+    <string name="tank_volume">The volume of the fuel tank</string>
+    <string name="emission">Emission</string>
+    <string name="liters_meter">(L/m)</string>
+    <string name="kg_meter">(kg/m)</string>
+    <string name="liter">liter</string>
+    <string name="timestamp">The time of last update</string>
+
+</resources>
